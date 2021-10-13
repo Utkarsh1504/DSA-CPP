@@ -1,0 +1,3 @@
+path,title,order,section,description,icon
+"/welcome","Welcome","1A","Introduction","this is the introduction to the website","info"
+"/intro-cpp","Introduction to C++","2A","Basics","this is the introduction to C++","book"
