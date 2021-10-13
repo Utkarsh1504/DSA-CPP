@@ -1,0 +1,32 @@
+name: Documentation request
+description: Suggest lesson, propose new data-structure and algorithms, discuss new ideas
+title: "new lesson: <name-of-the-lesson>"
+labels: ["⭐ goal: addition"]
+body:
+  - type: textarea
+    id: requesttype
+    attributes:
+      label: ⭐ Request Type
+      description: describe the name of the lesson or section you want to add.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 💻 Location
+      description: |
+        Where you think your lesson should be placed(location) so that there will be ease in understanding for new comers.
+    validations:
+      required: true
+  - type: textarea
+    id: addtionalinfo
+    attributes:
+      label: ❌ Additional Info
+      description: |
+        If you have any additional information that you think will help the community.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        You can also join the Discord community [here](#)
